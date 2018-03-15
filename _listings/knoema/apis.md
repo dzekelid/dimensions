@@ -20,8 +20,8 @@ tags:
 - Finance
 - Enterprise
 - Data
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/dimensions/master/_listings/knoema/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -35,7 +35,7 @@ apis:
   tags: Dimensions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/dimensions/master/_listings/knoema/meta-group-groupkey-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/dimensions/master/_listings/knoema/meta-dataset-datasetid-dimension-dimensionid-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
