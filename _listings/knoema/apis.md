@@ -35,7 +35,7 @@ apis:
   tags: Dimensions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/knoema/meta-dataset-datasetid-dimension-dimensionid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/knoema/meta-group-groupkey-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
