@@ -36,15 +36,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/knoema/meta-group-groupkey-get.md
-- name: Knoema API Dimension
-  description: Lists out the given dataset's dimension details.
+- name: Knoema API Dimension Group
+  description: 'This endpoint used to list/add/edit/delete groups in dimensions. The
+    functionality of endpoint depends on HTTP method: GET, POST, PUT or DELETE.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/knoema-logo.jpg
   humanURL: https://knoema.com
   baseURL: http://knoema.com//api/1.0
   tags: Dimensions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/knoema/meta-dataset-datasetid-dimension-dimensionid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/knoema/meta-group-groupkey-get.md
 x-common:
 - type: x-authentication
   url: https://knoema.com/dev/apps/authentication
