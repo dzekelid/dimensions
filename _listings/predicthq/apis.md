@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28211-pred
 x-kinRank: "7"
 x-alexaRank: "292227"
 tags: Dimensions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/predicthq/apis.md
 specificationVersion: "0.14"
 apis:

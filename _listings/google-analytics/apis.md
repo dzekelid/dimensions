@@ -8,11 +8,231 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Dimensions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Google Analytics - Get Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get
+  description: Lists custom dimensions to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get-openapi.md
+- name: Google Analytics - Create Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post
+  description: Create a new custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post-openapi.md
+- name: Google Analytics - Get Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get
+  description: Get a custom dimension to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch
+  description: Updates an existing custom dimension. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put
+  description: Updates an existing custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put-openapi.md
+- name: Google Analytics - Get Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get
+  description: Lists custom dimensions to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get-openapi.md
+- name: Google Analytics - Get Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get
+  description: Lists custom dimensions to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get-openapi.md
+- name: Google Analytics - Create Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post
+  description: Create a new custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post-openapi.md
+- name: Google Analytics - Create Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post
+  description: Create a new custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post-openapi.md
+- name: Google Analytics - Get Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get
+  description: Get a custom dimension to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get-openapi.md
+- name: Google Analytics - Get Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get
+  description: Get a custom dimension to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch
+  description: Updates an existing custom dimension. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch
+  description: Updates an existing custom dimension. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put
+  description: Updates an existing custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put
+  description: Updates an existing custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put-openapi.md
+- name: Google Analytics - Get Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get
+  description: Lists custom dimensions to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-get-openapi.md
+- name: Google Analytics - Create Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post
+  description: Create a new custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensions-post-openapi.md
+- name: Google Analytics - Get Custom Dimension
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get
+  description: Get a custom dimension to which the user has access.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-get-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch
+  description: Updates an existing custom dimension. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-patch-openapi.md
+- name: Google Analytics - Update Custom Dimensions
+  x-api-slug: managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put
+  description: Updates an existing custom dimension.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_lockup_analytics_icon_vertical_black_2x.png
+  humanURL: https://www.google.com/analytics/#?modal_active=none
+  baseURL: https://www.googleapis.com//analytics/v3
+  tags: Analysis, Google APIs, Stack Network, Stack, Analytics, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/dimensions/master/_listings/google-analytics/managementaccountsaccountidwebpropertieswebpropertyidcustomdimensionscustomdimensionid-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://google.adsense.api.gallery.streamdata.io
